@@ -1,0 +1,63 @@
+.blod {
+    font-weight: bold;
+}
+
+.title {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html,body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex-box {
+    display: flex;
+    border: 3px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.intro span {
+    display: flex;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 5px 0px;
+    padding-left: 85px;
+}
+
+.left {
+    max-width: 500px;
+    padding-right: 25px;
+}
+
+.right {
+    max-width: 300px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.step-text {
+    margin-top: 10px;
+    margin-left: 10px;
+}
