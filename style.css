@@ -7,6 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('./imgs/background.png');
+    background-position: center;
 }
 
 html,body {
@@ -22,6 +24,8 @@ html,body {
     margin-bottom: 50px;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+
 }
 
 p {
@@ -40,16 +44,13 @@ ul {
 }
 
 .left {
-    max-width: 500px;
-    padding-right: 25px;
+    max-width: 600px;
 }
 
-.right {
-    max-width: 300px;
-}
+
 
 img {
-    width: 300px;
+    width: 230px;
     height: auto;
 }
 
@@ -64,4 +65,43 @@ img {
 
 .rotate {
     transform: rotate(90deg);
+}
+
+.right {
+    display: flex;
+    margin-top: 20px;
+}
+
+.right img {
+    padding: 10px
+}
+
+.step-text-right {
+    margin-top: 5px;
+    padding-left: 40px;
+    font-style: italic;
+}
+
+.step-text-right::before {
+    font-style: normal;
+    content: '•';
+    padding-right: 10px;
+}
+
+.warning {
+    font-style: italic;
+    color: red;
+    display: flex;
+    margin-top: 20px;
+}
+
+.warning::before {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('./imgs/warning-sign.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    padding-right: 20px;
 }
