@@ -53,7 +53,7 @@ ul {
 
 
 img {
-    width: 200px;
+    width: 180px;
     height: auto;
 }
 
@@ -95,7 +95,7 @@ img {
     font-style: italic;
     color: red;
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .warning::before {
@@ -110,9 +110,5 @@ img {
 }
 
 .steps, .intro, .concusion {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 16px;
+    margin: 10px 0px;
 }
